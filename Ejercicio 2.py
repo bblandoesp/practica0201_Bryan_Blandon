@@ -1,5 +1,5 @@
-a = input ("Nombre:")
-b = input ("Apellido:")
+a = input ("Nombres:")
+b = input ("Apellidos:")
 print (a.lower(),b.lower ())
 print (a.upper (),b.upper ())
 print (a.title(),b.title ())
