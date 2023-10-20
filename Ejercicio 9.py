@@ -1,0 +1,5 @@
+x = input("fecha de nacimiento:")
+y = (x.split ("/"))
+print ("dia:", y[0])
+print ("mes:", y[1])
+print ("año:", y[2])
