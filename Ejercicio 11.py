@@ -1,0 +1,5 @@
+p = input ("nombre del producto:")
+precio = float (input ("precio:"))
+n_u = int (input ("numero de unidades:"))
+c = (precio * n_u)
+print (p, "\n" + "\n" "precio: {:5.2f},  unidades: {:3.0f}, coste total: {:8.2f}".format (precio, n_u, c))
